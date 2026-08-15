@@ -1,0 +1,57 @@
+# AWS
+.aws/
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Secrets
+secrets/
+*.secret
+*.password
+credentials
+credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
